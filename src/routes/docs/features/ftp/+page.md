@@ -1,7 +1,7 @@
 ---
 title: Connect to FTP servers
 ---
-
+ ENG:
 Files comes equipped with robust support for connecting to remote FTP and FTPS servers. This feature allows you to seamlessly access any compatible server, explore its directory structure, and perform tasks such as editing, renaming, and deleting files or folders as needed.
 
 ## Establishing a connection with FTP servers
@@ -25,3 +25,29 @@ Disconnecting is straightforward: simply close the tab or window, and you'll aut
 ## Limitations to be aware of
 
 - **Note:** SFTP is not currently supported.
+  RUS:
+  Подключение к FTP-серверам
+
+Программа Files предоставляет мощную поддержку для подключения к удалённым FTP- и FTPS-серверам. Эта функция позволяет вам легко получить доступ к любому совместимому серверу, исследовать его структуру каталогов и выполнять такие задачи, как редактирование, переименование и удаление файлов или папок по мере необходимости.
+
+Установление соединения с FTP-серверами
+
+Чтобы подключиться к удалённым серверам, используйте строку адреса, вводя конкретные пути. Вот как это делается:
+
+FTP
+
+Введите следующее в строку адреса: ftp://<адрес_сервера>:<порт>. Например, если адрес вашего сервера ftp.example.com и вы используете стандартный порт, введите ftp://ftp.example.com:21. Если порт не указан, по умолчанию используется порт 21.
+
+FTPS
+
+Для безопасного подключения через FTPS используйте следующий формат: ftps://<адрес_сервера>:<порт>. Например, если адрес вашего сервера ftps.example.com и вы используете стандартный порт, введите ftps://ftps.example.com:990. Если порт не указан, по умолчанию используется порт 990.
+
+При необходимости программа Files попросит вас ввести ваши учётные данные (имя пользователя и пароль) для безопасного входа.
+
+Отключение от FTP-серверов
+
+Отключиться просто: достаточно закрыть вкладку или окно, и вы автоматически отключитесь от сервера.
+
+Ограничения, о которых следует знать
+
+    Примечание: SFTP в настоящее время не поддерживается.
